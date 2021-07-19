@@ -25,7 +25,8 @@
         }
       ],
       "stateMutability": "view",
-      "type": "function"
+      "type": "function",
+      "constant": true
     }
   ],
   "metadata": "{\"compiler\":{\"version\":\"0.7.6+commit.7338295f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"name\":\"get\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"stateMutability\":\"view\",\"type\":\"function\"},{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"x\",\"type\":\"uint256\"}],\"name\":\"set\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"project:/contracts/SimpleStorage.sol\":\"SimpleStorage\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"project:/contracts/SimpleStorage.sol\":{\"keccak256\":\"0x53defa7343a4d192e41b8025fd31f071335f9285a0fad83bd839165840ffb78e\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://7d05adf157175a4487105934f398a0825fde32827f91c0304a9c9edf58d622d1\",\"dweb:/ipfs/Qmd5FkfYZmhZp1Fd4tHdaTRsVjw1iveAKbhQP2GPHgaL33\"]}},\"version\":1}",
@@ -589,11 +590,12 @@
       "events": {},
       "links": {},
       "address": "0xF72F09F4BF32e9a46A40d83Be170cDD15F373Bb7",
-      "transactionHash": "0x97ff400b92e9e1c8d4e19726e110c37b60ac8f4c61a15be89b47b02082c400b5"
+      "transactionHash": "0x071c31d1bf339fabc87466bbd19cca2f15f76ad3ad7ba89a8689b026a0e7eca3"
     }
   },
   "schemaVersion": "3.4.1",
-  "updatedAt": "2021-07-16T21:59:19.196Z",
+  "updatedAt": "2021-07-19T18:44:55.604Z",
+  "networkType": "ethereum",
   "devdoc": {
     "kind": "dev",
     "methods": {},
